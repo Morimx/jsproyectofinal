@@ -1,0 +1,17 @@
+.changuito {
+    height: 500px;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px;
+}
+
+.tuvi {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+}

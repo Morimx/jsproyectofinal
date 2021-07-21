@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg, #0e3d4b, #210752);
+    min-height: 93vh
+}
+
+.card {
+    border-radius: 8px;
+    border: none
+}
+
+.signin-link {
+    color: #db0a5b;
+    font-weight: 600
+}
+
+.signin-link:hover {
+    color: #b90b4f
+}
+
+.form-control {
+    margin-top: 13px;
+    height: 49px !important
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #db0a5b
+}
+
+.form-check-input {
+    border: 1px solid #F44336
+}
+
+.form-check-input:checked {
+    background-color: #F44336;
+    border-color: #F44336
+}
+
+.form-check-input:focus {
+    border-color: #e10a5b;
+    outline: 0;
+    box-shadow: none
+}
+
+.button {
+    height: 40px;
+    border-radius: 4px
+}
+
+.fondocolor {
+    background: linear-gradient(135deg, #470764, #210752);
+}
+
+h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signbox {
+    max-width: 500px;
+    min-height: 450px;
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0.8rem
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
