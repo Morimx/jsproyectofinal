@@ -12,13 +12,13 @@ let tecnicos = [{
     cantidad: 1,
 }, ]
 
-let pija;
-let poronga = document.querySelector('#Tabla')
+
+let acomodador = document.querySelector('#Tabla')
 
 
 function acomodar() {
     tecnicos.forEach(x => {
-        poronga.innerHTML = poronga.innerHTML + `<tr>
+        acomodador.innerHTML = acomodador.innerHTML + `<tr>
        <th scope="row">${x.nivel}</th>
        <td id="n1">${x.precio}</td>
        <td><select>

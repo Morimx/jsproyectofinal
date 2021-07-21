@@ -12,3 +12,8 @@ function hidebuttons() {
 }
 
 hidebuttons()
+
+$('#SdCarrito').click(() => {
+
+    $('.carrito').slideToggle()
+})
