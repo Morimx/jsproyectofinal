@@ -1,11 +1,9 @@
 function preciocompleto2(articulo) {
     servicios.forEach(x => {
         if (articulo == x.nombre) {
-            /*   resultadofinal += x.precio * iva;
-               pantalla.innerHTML = resultadofinal;
-               carrito.push(x);*/
-
-            console.log(x.precio)
+            resultadofinal += x.precio * iva;
+            pantalla.innerHTML = resultadofinal;
+            carrito.push(x);
         }
     })
 
