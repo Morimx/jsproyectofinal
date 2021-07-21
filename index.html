@@ -87,9 +87,9 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
-
                         <!--BOTON VIDEOVIGILANCIA-->
-                        <div class="mb-2"><i class="bi-camera-video fs-1 text-primary"></i></div>
+                        <div class="mb-2"><i class="bi-camera-video fs-1 text-primary"></i>
+                        </div>
                         <h3 class="h4 mb-2">Sistemas de seguridad</h3>
                         <p class="text-muted mb-0">Realizamos instalaciones de camaras DVR/NVR y todo tipo de soluciones de videovigilancia</p>
                         <!-- Button trigger modal -->
@@ -123,7 +123,7 @@
                         <h3 class="h4 mb-2">Limpieza y Formateo</h3>
                         <p class="text-muted mb-0">Mantene tu pc limpia contratando el servicio de limpieza o formateo para tu dispositivo</p>
                     </div>
-                    <div> <button class="btn btn-primary m" onclick="preciocompleto2('Formateo')"> 2000$ + IVA</button></div>
+                    <div> <button class="btn btn-primary mt-4" onclick="preciocompleto2('Formateo')"> 2000$ + IVA</button></div>
                 </div>
                 <!--PRODUCTO BACKUP-->
                 <div class="col-lg-3 col-md-6 text-center">
@@ -131,8 +131,8 @@
                         <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
                         <h3 class="h4 mb-2">Backup en la nube</h3>
                         <p class="text-muted mb-0">Respalda tu informacion en la nube para no perderla jamas</p>
+                        <button class="btn btn-primary mt-5 " onclick="preciocompleto2('Backup Cloud')">Cotizacion 5000$ + IVA</button>
                     </div>
-                    <div> <button class="btn btn-primary mt-2" onclick="preciocompleto2('Backup Cloud')">Cotizacion 5000$ + IVA</button></div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5">
@@ -149,11 +149,28 @@
             <h2 class="mb-4" id="tucarrito">Tu carrito <i id="SdCarrito" class="bi bi-arrow-down"></i></h2>
             <div class="carrito"></div>
             <hr>
-            <div>
-                <h2>Precio Total</h2>
-                <p class="numero"></p>
+            <div class="container-fluid">
+                <div class="row d-flex">
+                    <div class="col-md-6">
+                        <h2>Precio Total (Iva Incluido)</h2>
+                        <p class="numero strong"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="dropdown text-center">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Selecciona la cantidad de cuotas:  
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" onclick="mostrarCuotas('trescuotas')">3 Cuotas sin interes</a></li>
+                                <li><a class="dropdown-item" onclick="mostrarCuotas('seiscuotas')">6 Cuotas sin interes</a></li>
+                                <li><a class="dropdown-item" onclick="mostrarCuotas('docecuotas')">12 cuotas sin interes</a></li>
+                            </ul>
+                        </div>
+                        <p class="cantCuotas mt-2"></p>
+
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
 

@@ -10874,3 +10874,12 @@ header.masthead .h1 {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
+
+.botonesabajo {
+    position: ;
+    bottom: 10;
+}
+
+.posicionrelative {
+    position: relative;
+}
