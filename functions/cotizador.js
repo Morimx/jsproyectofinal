@@ -1,20 +1,23 @@
 let tecnicos = [{
     nivel: "Nivel 1",
-    precio: "1000$",
-    cantidad: 1,
+    precio: "1000",
+    cantidad: [1, 2, 3, 4, 5],
 }, {
     nivel: "Nivel 2",
     precio: 2500,
-    cantidad: 1,
+    cantidad: [1, 2, 3, 4],
 }, {
     nivel: "Nivel 3",
     precio: 4500,
-    cantidad: 1,
+    cantidad: [1, 2, 3],
 }, ]
 
 
 let acomodador = document.querySelector('#Tabla')
 
+const crearOpcion = opcion => {
+    return `<option value="${opcion}">${opcion}</option>\n`
+}
 
 function acomodar() {
     tecnicos.forEach(x => {
@@ -23,11 +26,7 @@ function acomodar() {
        <td id="n1">${x.precio}</td>
        <td><select>
            <option></option>
-           <option value="1">1</option>
-           <option value="2">2</option>
-           <option value="3">3</option>
-           <option value="4">4</option>
-           <option value="5">5</option>
+        ${x.cantidad.map(crearOpcion).join('')}
        </select></td>
        <td></td>
        </tr>`
