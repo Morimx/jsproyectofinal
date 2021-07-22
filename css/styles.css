@@ -10883,3 +10883,8 @@ header.masthead .h1 {
 .posicionrelative {
     position: relative;
 }
+
+.carritumbnail {
+    width: 30px;
+    height: 30px;
+}

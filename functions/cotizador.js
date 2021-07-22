@@ -39,7 +39,7 @@ function acomodar() {
     <select id="${x.clase}" onchange="myFunction(${y})">
     <option></option>
         ${x.cantidad.map(crearOpcion).join('')}
-    </select></td>
+    </select></td+>
     <td class="${x.clase}">
     0
     </td>

@@ -21,22 +21,17 @@ let servicios = [{
         nombre: "Formateo",
         precio: 2000,
         cantidad: 1,
-        foto: "",
+        foto: '<i class="fas fa-compact-disc"></i>',
     }, {
         nombre: "Backup Cloud",
         precio: 5000,
         cantidad: 1,
-        foto: "",
-    }, {
-        nombre: "Instalacion de Software",
-        precio: 1000,
-        cantidad: 1,
-        foto: "",
+        foto: '<i class="fas fa-cloud"></i>',
     },
     {
         nombre: "Cotizacion vigilancia",
         precio: 2000,
         cantidad: 1,
-        foto: "",
+        foto: '<i class = "fas fa-video"> </i>',
     },
 ]
