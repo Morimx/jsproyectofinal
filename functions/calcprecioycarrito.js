@@ -1,3 +1,10 @@
+let servicios;
+$.getJSON("../db/servicios.json", emparejar)
+
+function emparejar(json) {
+    servicios = json
+}
+
 function preciocompleto2(articulo) {
     servicios.forEach(x => {
         if (articulo == x.nombre) {

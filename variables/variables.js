@@ -15,23 +15,3 @@ let cuotas = {
     seiscuotas: 6,
     docecuotas: 12,
 }
-
-//Lista de servicios//
-let servicios = [{
-        nombre: "Formateo",
-        precio: 2000,
-        cantidad: 1,
-        foto: '<i class="fas fa-compact-disc"></i>',
-    }, {
-        nombre: "Backup Cloud",
-        precio: 5000,
-        cantidad: 1,
-        foto: '<i class="fas fa-cloud"></i>',
-    },
-    {
-        nombre: "Cotizacion vigilancia",
-        precio: 2000,
-        cantidad: 1,
-        foto: '<i class = "fas fa-video"> </i>',
-    },
-]
