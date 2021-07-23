@@ -4,6 +4,6 @@ function reiniciaracero() {
     cantCuotas.innerHTML = 0;
     pantalla.innerHTML = resultadofinal;
     carrito = [];
-    mostrarCarrito1.innerHTML = `<option selected disabled>Tu carrito se encuentra vacio</option>`;
+    mostrarCarrito1.innerHTML = "";
     return;
 }

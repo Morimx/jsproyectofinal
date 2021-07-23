@@ -1,4 +1,4 @@
-//Funcion para display de cuotas
+//Funcion para calculo y display de cuotas
 function mostrarCuotas(cantidadCuotas) {
     if (cuotas[cantidadCuotas]) {
         cantCuotas.innerHTML = Math.round(resultadofinal / cuotas[cantidadCuotas]);

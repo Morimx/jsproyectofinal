@@ -26,6 +26,7 @@ function login(correo, password) {
 
 }
 
+// Funcion para Deslogueo
 function Logout() {
     localStorage.setItem("Useron", "no");
     window.open("./index.html", "_self");

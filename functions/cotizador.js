@@ -1,3 +1,4 @@
+// Array de tecnicos
 let tecnicos = [{
         nivel: "Nivel 1",
         precio: 1000,
@@ -29,12 +30,13 @@ let tecnicos = [{
 ]
 
 
-
+// Captura de tabla
 let acomodador = document.querySelector('#Tabla')
 
-
+// Generador de opciones del select
 const crearOpcion = opcion => { return `<option class="${opcion}">${opcion}</option>\n` }
 
+//Funcion para armar el cotizador completo
 function acomodar() {
     var y = 0;
     tecnicos.forEach(x => {
@@ -54,9 +56,10 @@ function acomodar() {
     })
 }
 
+// Call de la funcion para acomodar el HTML
 acomodar();
 
-
+// Funcion de calculo de Tecnico x Precio
 function myFunction(parametro) {
     var subtotal = parametro;
     var change = document.getElementById("nvl1").value;

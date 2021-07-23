@@ -1,3 +1,4 @@
+//GET del JSON
 let servicios;
 $.getJSON("../db/servicios.json", emparejar)
 
@@ -5,6 +6,7 @@ function emparejar(json) {
     servicios = json
 }
 
+//Funcion de push al carrito y calculo de precios
 function preciocompleto2(articulo) {
     servicios.forEach(x => {
         if (articulo == x.nombre) {

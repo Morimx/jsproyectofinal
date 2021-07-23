@@ -1,3 +1,4 @@
+//Funcion para swicheo de botons Login / Registrar / Logout
 function hidebuttons() {
 
     if (localStorage.getItem("Useron") === "yes") {
@@ -13,6 +14,7 @@ function hidebuttons() {
 
 hidebuttons()
 
+// JQuery animacion
 $('#SdCarrito').click(() => {
 
     $('.carrito').slideToggle()
