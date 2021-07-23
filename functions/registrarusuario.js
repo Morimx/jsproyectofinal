@@ -34,8 +34,8 @@ function registrodeusuarios() {
 function submit(mail, passwd) {
     if (!existeMail(mail)) {
         localStorage.setItem(mail, passwd);
-        localStorage.setItem("Useron", "yes")
-        login(mail, passwd)
+        localStorage.setItem("Useron", "yes");
+        login(mail, passwd);
         return;
     } else {
         alert("El correo ya esta registrado")

@@ -12,8 +12,8 @@ function preciocompleto2(articulo) {
         let citemnombre = c.nombre;
         let citemprecio = c.precio;
         let citemfoto = c.foto;
-        carritoitems += `<li> ${citemfoto} ${citemnombre}: ${citemprecio} sin IVA incluido   </li>`
-        mostrarCarrito1.innerHTML = carritoitems
+        carritoitems += `<li> ${citemfoto} ${citemnombre}: ${citemprecio} sin IVA incluido   </li>`;
+        mostrarCarrito1.innerHTML = carritoitems;
 
     })
 }

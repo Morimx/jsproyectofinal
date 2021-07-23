@@ -18,7 +18,13 @@ let tecnicos = [{
         clase: "nvl3",
     },
 
-
+    {
+        nivel: "Nivel 4",
+        precio: 5500,
+        cantidad: [1, 2],
+        subtotal: 3,
+        clase: "nvl4",
+    },
 
 ]
 
@@ -45,10 +51,7 @@ function acomodar() {
     </td>
     </tr>`
         y++
-
     })
-
-
 }
 
 acomodar();
@@ -59,6 +62,7 @@ function myFunction(parametro) {
     var change = document.getElementById("nvl1").value;
     var change1 = document.getElementById("nvl2").value;
     var change2 = document.getElementById("nvl3").value;
+    var change3 = document.getElementById("nvl4").value;
 
     if (subtotal == 0) {
         let preTecnico = tecnicos[0].precio
@@ -72,5 +76,9 @@ function myFunction(parametro) {
         let preTecnico2 = tecnicos[2].precio
         preTecnico2 = preTecnico2 * change2;
         document.querySelector('.nvl3').innerHTML = `${preTecnico2} por hora`
+    } else if (subtotal == 3) {
+        let preTecnico3 = tecnicos[3].precio
+        preTecnico3 = preTecnico3 * change3;
+        document.querySelector('.nvl4').innerHTML = `${preTecnico3} por hora`
     }
-}
+};
