@@ -4,5 +4,5 @@
 4) Carrito de servicios funcional
 5) calculadora de cuotas
 6) reinicio de carrito
-
+7) Cotizador funcional autogenerado por JS 
 
